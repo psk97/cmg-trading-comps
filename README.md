@@ -1,6 +1,16 @@
 # Chipotle Mexican Grill (CMG) — Comparable Companies Analysis
 
+> **Educational / portfolio project — not investment advice.** Figures were compiled from public sources for training purposes and should not be used to inform an actual investment decision. See "Data Sourcing & Limitations" below.
+
 A full-cycle trading comps valuation project built in the style of a bulge-bracket Investment Banking Valuation Group deliverable: company research → tiered peer selection → financial data collection → multiples → statistical analysis → implied valuation → DCF cross-check → football field → presentation deck.
+
+## Screenshots
+
+| Football Field Valuation | Investment Recommendation |
+|---|---|
+| ![Football Field](screenshots/football_field.jpg) | ![Investment Recommendation](screenshots/investment_recommendation.jpg) |
+
+*(Full 12-slide deck and 9-tab Excel model available in this repo — see Deliverables below.)*
 
 ## Why This Project
 
@@ -19,6 +29,21 @@ Most "comps" portfolio projects stop at pulling five tickers into a spreadsheet 
 - **Outliers handled with judgment, not just a formula.** Sweetgreen's near-zero/negative EBITDA is excluded from EV/EBITDA statistics as not meaningful (n.m.). CAVA's 53x EV/EBITDA — a real, current-market number driven by its early growth stage — is carried as an explicit upside scenario rather than blended into a single base-case median.
 - **Two independent valuation methods, reconciled rather than picked.** A comps-based valuation ($37–$65/share) is cross-checked against a simplified 5-year DCF ($15–$21/share). The methods diverge meaningfully, and the project explains *why* (a flat capex assumption in the DCF, and the market not yet fully re-rating CMG post food-safety headlines) rather than presenting one number as "the answer."
 - **Every hardcoded input is flagged and sourced.** Blue font = input, black = formula, green = cross-sheet link — standard IB modeling convention — with a documented note wherever a figure required judgment (e.g., Wingstop's balance sheet data, which needed estimation from available public sources).
+
+## Repo Structure
+
+```
+cmg-trading-comps/
+├── README.md
+├── CMG_Trading_Comps.xlsx
+├── CMG_Trading_Comps_Deck.pptx
+└── screenshots/
+    ├── title_slide.jpg
+    ├── football_field.jpg
+    └── investment_recommendation.jpg
+```
+
+To set this up: create a new public repo, drop in these files at the root (screenshots go in a `screenshots/` subfolder as shown), and GitHub will auto-render this README on the repo's landing page — no further setup needed.
 
 ## Data Sourcing & Limitations
 
