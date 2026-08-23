@@ -30,21 +30,6 @@ Most "comps" portfolio projects stop at pulling five tickers into a spreadsheet 
 - **Two independent valuation methods, reconciled rather than picked.** A comps-based valuation ($37–$65/share) is cross-checked against a simplified 5-year DCF ($15–$21/share). The methods diverge meaningfully, and the project explains *why* (a flat capex assumption in the DCF, and the market not yet fully re-rating CMG post food-safety headlines) rather than presenting one number as "the answer."
 - **Every hardcoded input is flagged and sourced.** Blue font = input, black = formula, green = cross-sheet link — standard IB modeling convention — with a documented note wherever a figure required judgment (e.g., Wingstop's balance sheet data, which needed estimation from available public sources).
 
-## Repo Structure
-
-```
-cmg-trading-comps/
-├── README.md
-├── CMG_Trading_Comps.xlsx
-├── CMG_Trading_Comps_Deck.pptx
-└── screenshots/
-    ├── title_slide.jpg
-    ├── football_field.jpg
-    └── investment_recommendation.jpg
-```
-
-To set this up: create a new public repo, drop in these files at the root (screenshots go in a `screenshots/` subfolder as shown), and GitHub will auto-render this README on the repo's landing page — no further setup needed.
-
 ## Data Sourcing & Limitations
 
 Figures were compiled from public company filings, earnings releases, and financial data aggregators as of August 2026. In live deal work, this data would be pulled from a single terminal (Capital IQ or FactSet) on one snapshot date to guarantee consistent accounting treatment across every peer — a constraint this project explicitly calls out rather than glosses over. This is a training/portfolio exercise, not investment advice.
