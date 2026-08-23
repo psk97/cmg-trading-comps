@@ -8,7 +8,7 @@ A full-cycle trading comps valuation project built in the style of a bulge-brack
 
 | Football Field Valuation | Investment Recommendation |
 |---|---|
-| ![Football Field](screenshots/football_field.jpg) | ![Investment Recommendation](screenshots/investment_recommendation.jpg) |
+| ![Football Field](football_field.jpg) | ![Investment Recommendation](investment_recommendation.jpg) |
 
 *(Full 12-slide deck and 9-tab Excel model available in this repo — see Deliverables below.)*
 
